@@ -54,6 +54,31 @@ The toolkit is demonstrated using:
 - Titanic Dataset
 - Wine Quality Dataset
 
+## 📂 Dataset Information
+
+This project uses two publicly available datasets:
+
+**1. Titanic Dataset**
+- Source: [Kaggle Titanic Dataset – Data Science Dojo](https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv)
+- Used for dataset exploration, data cleaning, visualization, and feature engineering.
+
+**2. Wine Quality Dataset**
+- Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/186/wine+quality)
+- Used to test the reusable EDA functions on a different dataset.
+
+## 📁 Output Files
+
+The `outputs/` directory contains processed datasets generated during the project.
+
+| File | Description |
+|---|---|
+| `titanic_cleaned.csv` | Dataset after missing value handling and preprocessing |
+| `titanic_feature_engineered.csv` | Dataset containing additional engineered features |
+
+The `datasets/` directory contains the original input datasets.
+
+
+
 ## 🛠️ Technologies Used
 
 - Python
